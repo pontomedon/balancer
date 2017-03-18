@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRF7455PBF
+D HexFET N-MOS Power Mosfet, Vds 30V, Rdson 0.0075R, Id 15A, Micro8
+K HexFET Power Mosfet N-MOS
+F http://www.irf.com/product-info/datasheets/data/irf7455pbf.pdf
+$ENDCMP
+#
+$CMP MAX923
+D Dual Comparator w/1% Precision Ref
+K MAX923
+F https://datasheets.maximintegrated.com/en/ds/MAX921-MAX924.pdf
+$ENDCMP
+#
+$CMP S4B-XH-SM4-TB
+D 4 Pin SMT 2.5mm pitch/Disconnectable Crimp style connector
+K JST XH
+F http://www.jst-mfg.com/product/pdf/eng/eXH.pdf
+$ENDCMP
+#
+#End Doc Library
