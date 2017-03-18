@@ -49,13 +49,13 @@ Reference
 Text HLabel 1900 1100 2    60   Output ~ 0
 VoltageLow
 $Comp
-L IRF7455PBF Q1
+L IRF7455PBF Q2
 U 1 1 58CDB997
 P 2150 2150
-AR Path="/58CDDC72/58CDB997" Ref="Q1"  Part="1" 
-AR Path="/58CDE720/58CDB997" Ref="Q2"  Part="1" 
-AR Path="/58CDEEA6/58CDB997" Ref="Q3"  Part="1" 
-F 0 "Q3" H 1950 2450 50  0000 L CNN
+AR Path="/58CDDC72/58CDB997" Ref="Q2"  Part="1" 
+AR Path="/58CDE720/58CDB997" Ref="Q3"  Part="1" 
+AR Path="/58CDEEA6/58CDB997" Ref="Q4"  Part="1" 
+F 0 "Q4" H 1950 2450 50  0000 L CNN
 F 1 "IRF7455PBF" H 1950 1900 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2160 1740 50  0001 C CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf7455pbf.pdf" H 2150 1830 50  0001 C CNN
