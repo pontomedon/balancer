@@ -74,7 +74,7 @@ F 1 "22R" V 2800 1950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0612" V 2730 1950 50  0001 C CNN
 F 3 "" H 2800 1950 50  0001 C CNN
 	1    2800 1950
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L R R8
@@ -246,7 +246,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 1950 2550 2250
 Wire Wire Line
-	2550 2250 2450 2250
+	2450 2250 2650 2250
 Connection ~ 2550 1950
 Wire Wire Line
 	2450 2150 2550 2150
@@ -377,4 +377,44 @@ Wire Notes Line
 	1100 2800 4950 2800
 Text Notes 1200 2900 0    60   ~ 0
 Voltage Divider & Comparator
+$Comp
+L R R24
+U 1 1 58CFD09E
+P 3200 2250
+AR Path="/58CDDC72/58CFD09E" Ref="R24"  Part="1" 
+AR Path="/58CDE720/58CFD09E" Ref="R25"  Part="1" 
+AR Path="/58CDEEA6/58CFD09E" Ref="R26"  Part="1" 
+F 0 "R24" V 3280 2250 50  0000 C CNN
+F 1 "220R" V 3200 2250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 3130 2250 50  0001 C CNN
+F 3 "" H 3200 2250 50  0001 C CNN
+	1    3200 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 58CFD291
+P 2800 2250
+AR Path="/58CDDC72/58CFD291" Ref="D4"  Part="1" 
+AR Path="/58CDE720/58CFD291" Ref="D5"  Part="1" 
+AR Path="/58CDEEA6/58CFD291" Ref="D6"  Part="1" 
+F 0 "D4" H 2800 2350 50  0000 C CNN
+F 1 "LED" H 2800 2150 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 2800 2250 50  0001 C CNN
+F 3 "" H 2800 2250 50  0001 C CNN
+	1    2800 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 2550 2250
+Wire Wire Line
+	2950 2250 3050 2250
+Wire Wire Line
+	3010 1950 3010 2090
+Wire Wire Line
+	3010 2090 3440 2090
+Wire Wire Line
+	3440 2090 3440 2250
+Wire Wire Line
+	3440 2250 3350 2250
+Connection ~ 3010 1950
 $EndSCHEMATC
