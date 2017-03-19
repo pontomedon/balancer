@@ -1,0 +1,22 @@
+Drill report for D:\Users\poseidon\Documents\GIT\balancer\balancer.kicad_pcb
+Created on 19.03.2017 21:36:02
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'balancer.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,40mm  0,016"  (28 holes)
+
+    Total plated holes count 28
+
+
+Drill file 'balancer-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
